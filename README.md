@@ -21,10 +21,16 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
     <td valign="center">
 
       📁 src
-        📁 app
+        📁 page
           📁 login
             📄 page.tsx
+          📁 homepage
+            📄 page.tsx
+        📁 routes
+          📄 PrivateRoute.tsx
+          📄 PublicRoute.tsx
         📁 assets
+          📁 fonts
           📁 icons
             🖼️ cat.png
           📁 images
@@ -35,19 +41,36 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
               📄 Button.tsx
             📁 inputs
               📄 InputText.tsx
+        📁 services
+          📁 auth
+            📄 authService.ts
+          📁 products
+            📄 productsService.ts
+          📄 apiService.ts
         📁 styles
           🎨 globals.css
         📁 contexts
           📄 ThemeContext.tsx
+        📁 hooks
+          📄 useFetch.tsx
+        📁 tests
+          📁 unit
+          📁 integration
+        📄 App.tsx
+        📄 main.tsx
 
   </td>
   <td valign="top">
 
-- **/app** - paginas do site
-- **/assets** - imagens e icones
+- **/pages** - paginas do site
+- **/routes** - verificação de rotas
+- **/assets** - imagens, icones, fontes
 - **/components** - button, inputs, cards
+- **/services** - serviços de api com o backend
 - **/styles** - arquivo de estilização global
 - **/contexts** - gerenciador de estados
+- **/hooks** - hooks personalizados
+- **/tests** - criação de testes do projeto
 
   </td>
   </tr>
