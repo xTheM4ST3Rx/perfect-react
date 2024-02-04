@@ -16,8 +16,9 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
 
 ## Arquitetura de Pastas:
 
-<div style="display: flex; justify-content: space-between;">
- <div style="flex: 1;">
+<table>
+  <tr>
+    <td valign="top">
 
 - 📁 src
 
@@ -36,13 +37,14 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
   - 📁 styles
     - 📄 globals.css
   - 📁 contexts - 📄 ThemeContext.tsx
-  </div>
-  <div style="flex: 1;">
+  </td>
+  <td valign="top">
 
   - **/app** - paginas do site
   - **/assets** - imagens e icones
   - **/components** - button, inputs, cards
   - **/styles** - arquivo de estilização global
   - **/contexts** - gerenciador de estados
-  </div>
-  </div>
+  </td>
+  </tr>
+  </table>
