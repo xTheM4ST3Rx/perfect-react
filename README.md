@@ -1,4 +1,4 @@
-# React Perfect - Template
+# Perfect React - Template
 
 A ideia desse repositório e ser uma template utilizando as melhores técnologias atuais para iniciar um novo projeto de pequeno a grande escala.
 
@@ -16,7 +16,11 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
 
 ## Arquitetura de Pastas:
 
+<div style="display: flex; justify-content: space-between;">
+ <div style="flex: 1;">
+
 - 📁 src
+
   - 📁 app
     - 📁 login
       - 📄 page.tsx
@@ -31,3 +35,14 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
         - 📄 InputText.tsx
   - 📁 styles
     - 📄 globals.css
+  - 📁 contexts - 📄 ThemeContext.tsx
+  </div>
+  <div style="flex: 1;">
+
+  - **/app** - paginas do site
+  - **/assets** - imagens e icones
+  - **/components** - button, inputs, cards
+  - **/styles** - arquivo de estilização global
+  - **/contexts** - gerenciador de estados
+  </div>
+  </div>
