@@ -20,7 +20,6 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
  <div style="flex: 1;">
 
 - 📁 src
-
   - 📁 app
     - 📁 login
       - 📄 page.tsx
