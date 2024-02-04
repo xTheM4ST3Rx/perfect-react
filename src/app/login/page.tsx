@@ -1,5 +1,5 @@
-import Button from "@/components/buttons/Button";
-import InputText from "@/components/inputs/InputText";
+import Button from "@/components/ui/buttons/Button";
+import InputText from "@/components/ui/inputs/InputText";
 import { useState } from "react";
 import { z } from "zod";
 
