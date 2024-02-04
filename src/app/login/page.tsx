@@ -6,7 +6,10 @@ import { z } from "zod";
 //----------------------------------------------------
 const loginSchema = z.object({
   email: z.string().email("Formato de email inválido"),
-  password: z.string().min(6, "Senha deve ter no mínimo 6 caracteres"),
+  password: z
+    .string()
+    .min(6, "Senha deve ter no mínimo 6 caracteres")
+    .refine((value) => /[A-Z]/.test(value), "Pelo menos uma letra maiúscula"),
 });
 //----------------------------------------------------
 type LoginForm = z.infer<typeof loginSchema>;
@@ -42,10 +45,10 @@ export function PageLogin() {
   //----------------------------------------------------
 
   return (
-    <div className="h-screen flex items-center justify-evenly ">
+    <div className="flex h-screen items-center justify-evenly ">
       <form
         onSubmit={(e) => submitForm(e)}
-        className="flex flex-col gap-2 w-full max-w-xs p-2"
+        className="flex w-full max-w-xs flex-col gap-2 p-2"
       >
         <div className="text-3xl font-bold">Sign In</div>
 
@@ -55,7 +58,7 @@ export function PageLogin() {
           name="email"
           onChange={handleInputChange}
         />
-        <div className="text-red-500 animate-pulse text-sm">{errors.email}</div>
+        <div className="animate-pulse text-sm text-red-500">{errors.email}</div>
 
         <InputText
           type="password"
@@ -63,7 +66,7 @@ export function PageLogin() {
           placeholder="Password"
           onChange={handleInputChange}
         />
-        <div className="text-yellow-500 animate-pulse text-sm">
+        <div className="animate-pulse text-sm text-yellow-500">
           {errors.password}
         </div>
 
