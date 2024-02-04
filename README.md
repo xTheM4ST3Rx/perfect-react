@@ -18,7 +18,7 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
 
 <table>
   <tr>
-    <td valign="top">
+    <td valign="center">
 
       📁 src
         📁 app
