@@ -22,16 +22,18 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
     <td valign="center">
 
       📁 src
-        📁 page
-          📁 login
-            📄 page.tsx
-          📁 homepage
-            📄 page.tsx
+        📁 pages
+          📄 LoginPage.tsx
+          📄 ConfigPage.tsx
+          📄 HomePage.tsx
         📁 routes
           🛣️ PrivateRoute.tsx
           🛣️ PublicRoute.tsx
+        📁 common
+          📁 assets
+            📄 userTypes.tsx
+            📄 productTypes.tsx
         📁 assets
-          📁 fonts
           📁 icons
             🖼️ cat.png
           📁 images
@@ -67,6 +69,7 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
 - **/routes** - verificação de rotas
 - **/assets** - imagens, icones, fontes
 - **/components** - button, inputs, cards
+- **/common/types** - tipagens para o projeto
 - **/services** - serviços de api com o backend
 - **/styles** - arquivo de estilização global
 - **/contexts** - gerenciador de estados

@@ -14,7 +14,7 @@ const loginSchema = z.object({
 //----------------------------------------------------
 type LoginForm = z.infer<typeof loginSchema>;
 //----------------------------------------------------
-export function PageLogin() {
+export function LoginPage() {
   const [output, setOutput] = useState<string>();
   const [formData, setFormData] = useState<LoginForm>({
     email: "",
