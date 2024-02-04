@@ -28,8 +28,8 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
           📁 homepage
             📄 page.tsx
         📁 routes
-          📄 PrivateRoute.tsx
-          📄 PublicRoute.tsx
+          🛣️ PrivateRoute.tsx
+          🛣️ PublicRoute.tsx
         📁 assets
           📁 fonts
           📁 icons
@@ -39,21 +39,21 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
         📁 components
           📁 ui
             📁 buttons
-              📄 Button.tsx
+              🧱 Button.tsx
             📁 inputs
-              📄 InputText.tsx
+              🧱 InputText.tsx
         📁 services
           📁 auth
-            📄 authService.ts
+            ⚙️ authService.ts
           📁 products
-            📄 productsService.ts
+            ⚙️ productsService.ts
           📄 apiService.ts
         📁 styles
           🎨 globals.css
         📁 contexts
-          📄 ThemeContext.tsx
+          🧠 ThemeContext.tsx
         📁 hooks
-          📄 useFetch.tsx
+          🎣 useFetch.tsx
         📁 tests
           📁 unit
           📁 integration
