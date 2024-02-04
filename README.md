@@ -20,30 +20,35 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
   <tr>
     <td valign="top">
 
-- 📁 src
-  - 📁 app
-    - 📁 login
-      - 📄 page.tsx
-  - 📁 assets
-    - 📁 icons
-      - 📄 cat.png
-  - 📁 components
-    - 📁 ui
-      - 📁 buttons
-        - 📄 Button.tsx
-      - 📁 inputs
-        - 📄 InputText.tsx
-  - 📁 styles
-    - 📄 globals.css
-  - 📁 contexts - 📄 ThemeContext.tsx
+      📁 src
+        📁 app
+          📁 login
+            📄 page.tsx
+        📁 assets
+          📁 icons
+            🖼️ cat.png
+          📁 images
+            🖼️ bg.jpg
+        📁 components
+          📁 ui
+            📁 buttons
+              📄 Button.tsx
+            📁 inputs
+              📄 InputText.tsx
+        📁 styles
+          🎨 globals.css
+        📁 contexts
+          📄 ThemeContext.tsx
+
   </td>
   <td valign="top">
 
-  - **/app** - paginas do site
-  - **/assets** - imagens e icones
-  - **/components** - button, inputs, cards
-  - **/styles** - arquivo de estilização global
-  - **/contexts** - gerenciador de estados
+- **/app** - paginas do site
+- **/assets** - imagens e icones
+- **/components** - button, inputs, cards
+- **/styles** - arquivo de estilização global
+- **/contexts** - gerenciador de estados
+
   </td>
   </tr>
   </table>
