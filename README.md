@@ -5,6 +5,7 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
 ### Dependencias de Produção
 
 - **Zod** - Para validar formulários e gerar tipagem no desenvolvimento
+- **React-hook-form** - Criação de formularios sem verbosidade
 - **Tailwind-variants** - Para criação de componentes personalizados
 - **React-router-dom** - Para criação de rotas da aplicação
 
