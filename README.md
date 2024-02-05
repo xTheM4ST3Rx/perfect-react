@@ -31,7 +31,7 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
           🛣️ PrivateRoute.tsx
           🛣️ PublicRoute.tsx
         📁 common
-          📁 assets
+          📁 types
             📄 userTypes.tsx
             📄 productTypes.tsx
         📁 assets
