@@ -1,30 +1,21 @@
+import { AuthProps, AuthSchema } from "@/common/types/userTypes";
 import Button from "@/components/ui/buttons/Button";
 import InputText from "@/components/ui/inputs/InputText";
 import { useState } from "react";
-import { z } from "zod";
 
-//----------------------------------------------------
-const loginSchema = z.object({
-  email: z.string().email("Formato de email inválido"),
-  password: z
-    .string()
-    .min(6, "Senha deve ter no mínimo 6 caracteres")
-    .refine((value) => /[A-Z]/.test(value), "Pelo menos uma letra maiúscula"),
-});
-//----------------------------------------------------
-type LoginForm = z.infer<typeof loginSchema>;
-//----------------------------------------------------
 export function LoginPage() {
   const [output, setOutput] = useState<string>();
-  const [formData, setFormData] = useState<LoginForm>({
+  const [formData, setFormData] = useState<AuthProps>({
     email: "",
     password: "",
   });
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
+
   //----------------------------------------------------
   function submitForm(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const result = loginSchema.safeParse(formData);
+
+    const result = AuthSchema.safeParse(formData);
 
     if (result.success) {
       setOutput(JSON.stringify(result, null, 2));
