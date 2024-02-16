@@ -22,6 +22,7 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
 <table>
   <tr>
     <td valign="center">
+      
       🐾 husky
       📁 src
         📁 pages
