@@ -27,7 +27,7 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
           📄 LoginPage.tsx
           📄 ConfigPage.tsx
           📄 HomePage.tsx
-        📁 routes
+        📁 router
           🛣️ PrivateRoute.tsx
           🛣️ PublicRoute.tsx
         📁 common
@@ -67,7 +67,7 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
   <td valign="top">
 
 - **/pages** - paginas do site
-- **/routes** - verificação de rotas
+- **/router** - verificação de rotas
 - **/assets** - imagens, icones, fontes
 - **/components** - button, inputs, cards
 - **/common/types** - tipagens para o projeto
