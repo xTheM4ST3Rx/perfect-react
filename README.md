@@ -12,6 +12,7 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
 ### Dependencias de Desenvolvimento
 
 - **Eslint** - Para monitorar e auxiliar em padrões de código no desenvolvimento
+- **Husky** - Para testar e verificar o código antes de ser enviado para o git
 - **Tailwind** - Para trabalhar com estilização de páginas e componentes com alta velocidade
 - **Prettier** - Para trabalhar com estilização de páginas e componentes com alta velocidade
 - **Prettier-plugin-tailwindcss** - Para organizar automaticamente a order das classes do Tailwind
@@ -21,7 +22,7 @@ A ideia desse repositório e ser uma template utilizando as melhores técnologia
 <table>
   <tr>
     <td valign="center">
-
+      🐾 husky
       📁 src
         📁 pages
           📄 LoginPage.tsx
